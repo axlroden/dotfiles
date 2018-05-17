@@ -17,9 +17,12 @@ brew install git
 brew install ack
 
 # Install Heroku plugins.
-heroku plugins:install heroku-sudo
 heroku plugins:install heroku-repo
-heroku plugins:install heroku-buildkits
+
+# Install orchestration tools.
+brew install terraform
+brew install caskroom/cask/virtualbox
+brew install caskroom/cask/minikube
 
 # Install download utilities.
 brew install youtube-dl
@@ -50,8 +53,8 @@ brew install pypy
 brew install pypy3
 brew install ipython
 
-# Python 2 utilities.
-pip2 install legit
+# Python utilities.
+pip3 install legit
 pip2 install em-keyboard
 
 # Pipenv!
