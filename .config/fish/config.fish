@@ -45,7 +45,7 @@ function fortune
 end
 
 function mate
-  command subl -multiinstance $argv
+  command code $argv
 end
 
 function df --description 'Displays disk free space'
@@ -102,10 +102,12 @@ if status --is-login
 
     # Don't write bytecode, Python!
     export PYTHONDONTWRITEBYTECODE=1
-    export PIPENV_DEFAULT_PYTHON_VERSION=3.6
-    export PIPENV_SHELL_FANCY=1
+    export PIPENV_DEFAULT_PYTHON_VERSION=3.7
+    if [ "$TERM_PROGRAM" != "vscode" ]
+      export PIPENV_SHELL_FANCY=1
+    end
     export PIPENV_MAX_SUBPROCESS=32
-    export EDITOR=subl
+    export EDITOR=code
     set SHELL /usr/local/bin/fish
     export NOMAD_ADDR=http://159.89.35.130:4646
 
