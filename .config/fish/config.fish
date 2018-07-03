@@ -3,6 +3,10 @@ function up
   ping 8.8.8.8
 end
 
+function dl
+  nomad job dispatch -meta url=$argv storage:youtube-dl
+end
+
 function battery
   pmset -g batt | egrep "([0-9]+\%).*" -o --colour=auto | cut -f1 -d';'
   pmset -g batt | egrep "([0-9]+\%).*" -o --colour=auto | cut -f3 -d';'
@@ -103,6 +107,7 @@ if status --is-login
     export PIPENV_MAX_SUBPROCESS=32
     export EDITOR=subl
     set SHELL /usr/local/bin/fish
+    export NOMAD_ADDR=http://159.89.35.130:4646
 
     set -gx PATH /Users/kennethreitz/.local/bin $PATH
     set -gx PATH /usr/local/opt/python@2/bin $PATH

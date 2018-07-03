@@ -15,6 +15,8 @@ brew autoupdate --start --upgrade --cleanup --enable-notifications
 brew install heroku
 brew install git
 brew install ack
+brew install nomad
+brew install doctl
 
 # Install Heroku plugins.
 heroku plugins:install heroku-repo

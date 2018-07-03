@@ -35,5 +35,5 @@ SET fish_pager_color_description:B3A06D\x1eyellow
 SET fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SET fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SET fisher_active_prompt:bobthefish
-SET fisher_dependency_count:docker\x2dcompletion\x1epipenv\x1episces\x1ebrew\x2dcompletions\x1epyenv\x1etab\x1eosx\x1edone\x1e\x1ez\x1egrc\x1ehomebrew\x2dtap\x1egetopts\x1espin\x1egitignore\x1ehumanize_duration\x1eextract\x1esublime\x1essh\x1epython\x1egit\x2dflow\x1edjango\x1ecomposer\x1ebundler\x1ebrew\x1ebobthefish\x1ebass
+SET fisher_dependency_count:docker\x2dcompletion\x1epipenv\x1episces\x1ebrew\x2dcompletions\x1epyenv\x1etab\x1eosx\x1edone\x1e\x1ez\x1egrc\x1ehomebrew\x2dtap\x1egetopts\x1espin\x1egitignore\x1ehumanize_duration\x1eextract\x1esublime\x1essh\x1epython\x1egit\x2dflow\x1edjango\x1ebundler\x1ebrew\x1ebobthefish\x1ebass\x1edirenv
 SET pisces_pairs:\x28\x2c\x29\x1e\x5b\x2c\x5d\x1e\x7b\x2c\x7d\x1e\x22\x2c\x22\x1e\x27\x2c\x27

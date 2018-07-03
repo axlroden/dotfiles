@@ -3,7 +3,7 @@ oh-my-fish/theme-bobthefish
 oh-my-fish/plugin-brew
 laughedelic/brew-completions
 oh-my-fish/plugin-bundler
-oh-my-fish/plugin-composer
+direnv/direnv
 oh-my-fish/plugin-django
 fisherman/done
 oh-my-fish/plugin-extract
