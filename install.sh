@@ -13,6 +13,8 @@ brew autoupdate --start --upgrade --cleanup --enable-notifications
 
 # Install brew essentials.
 brew install heroku
+brew install npm
+npm install -g now
 brew install git
 brew install ack
 brew install nomad
@@ -25,6 +27,9 @@ heroku plugins:install heroku-repo
 brew install terraform
 brew install caskroom/cask/virtualbox
 brew install caskroom/cask/minikube
+
+# Intall Linting utlities.
+npm install -g git+https://github.com/projectatomic/dockerfile_lint
 
 # Install download utilities.
 brew install youtube-dl
@@ -70,7 +75,6 @@ brew install gist
 brew install lua
 brew install node
 brew install ruby
-npm install -g git+https://github.com/projectatomic/dockerfile_lint
 
 # Install fun stuff.
 brew install fortune
