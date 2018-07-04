@@ -70,6 +70,7 @@ brew install gist
 brew install lua
 brew install node
 brew install ruby
+npm install -g git+https://github.com/projectatomic/dockerfile_lint
 
 # Install fun stuff.
 brew install fortune
