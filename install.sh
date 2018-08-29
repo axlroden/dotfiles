@@ -95,3 +95,6 @@ brew install gpg
 
 # Pandoc
 brew install pandoc
+
+# Twitter utilities.
+gem install t
