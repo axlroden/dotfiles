@@ -23,24 +23,8 @@ function lock
   /System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend
 end
 
-function icloud
-  command brctl monitor ~/iCloud/
-end
-
-function icloud-logs
-  command brctl log --wait
-end
-
 function uptime
   command grc uptime
-end
-
-function fortune
-  command fortune $argv | lolcat
-end
-
-function mate
-  command subl -multiinstance $argv
 end
 
 function df --description 'Displays disk free space'
@@ -49,30 +33,6 @@ end
 
 function vlc
   open -a vlc $argv
-end
-
-function gitx
-  command gittower (git rev-parse --show-toplevel)
-end
-
-function fresh
-  command git commit -m "empty commit" --allow-empty
-end
-
-function hfresh
-  command fresh and command git push heroku master
-end
-
-function cake
-  command em sparkles cake sparkles
-end
-
-function super-cake
-  command em dizzy sparkles cake sparkles dizzy
-end
-
-function svn
-  command find . -name "*.svn" -exec rm -rf {} \;
 end
 
 function pyc
