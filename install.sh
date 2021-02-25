@@ -50,8 +50,9 @@ brew install docker-completion
 brew install bats
 brew install shellcheck
 
-# Iterm
+# Utils
 brew install --cask iterm2
+brew install --cask visual-studio-code
 
 # Pipenv!
 brew install pipenv
