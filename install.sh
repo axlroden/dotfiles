@@ -35,6 +35,7 @@ brew install mas
 brew install htop
 brew install neofetch
 brew install mosh
+brew install docker-completion
 
 # Install bash utilities.
 brew install bats
