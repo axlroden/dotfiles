@@ -1,7 +1,0 @@
-/.ipython/
-
-/.viminfo
-.ssh/known_hosts
-.ssh/id_rsa
-.gnupg/
-.config/fish/fishd.*
