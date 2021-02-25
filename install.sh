@@ -50,8 +50,8 @@ brew install docker-completion
 brew install bats
 brew install shellcheck
 
-# Install Python utilities
-brew install python
+# Iterm
+brew install --cask iterm2
 
 # Pipenv!
 brew install pipenv
