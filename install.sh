@@ -19,13 +19,9 @@ brew install ack
 # Install Heroku plugins.
 heroku plugins:install heroku-repo
 
-# Install orchestration tools.
-brew install caskroom/cask/virtualbox
-
 # Install download utilities.
 brew install youtube-dl
 brew install wget
-brew install httpie
 
 # Install fancy shell stuff.
 brew install fish
@@ -44,7 +40,7 @@ brew install mosh
 brew install bats
 brew install shellcheck
 
-# Install Python utlitlies.
+# Install Python utilities
 brew install python
 
 # Pipenv!
