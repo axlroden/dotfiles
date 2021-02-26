@@ -17,4 +17,4 @@ omf install composer
 omf install bundler	
 omf install brew	
 omf install asdf
-omf install pyenv
+
